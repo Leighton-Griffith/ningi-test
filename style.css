@@ -1,11 +1,14 @@
 /*Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
+body{
+  font-family: 'Manrope', 'sans-serif';
+}
 
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 400px; 
+    width: 350px; 
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -41,7 +44,7 @@
     align-content: center;
     width: 50%;
     height: 100%;
-    left: 400px;
+    left: 350px;
     top: 0px;
     background-color: #3C3F50;
     color: #fff;
@@ -74,3 +77,38 @@
 
 }
 
+.main .content_header{
+position: absolute;
+width: 308px;
+height: 33px;
+left: 125px;
+top: 180px;
+font-size: 16px;
+}
+
+.investment_text{
+  font-size: 10px;
+  padding-top: 20px;
+}
+input {
+  background-color: black;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button_submit{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  width: 100px;
+}
