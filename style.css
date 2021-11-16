@@ -1,0 +1,62 @@
+/*Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 400px; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(32, 32, 32);
+    padding-top: 20px; /* Place content 60px from the top */
+
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-family: 'Manrope', 'sans-serif';
+    font-style: normal;
+    font-size: 10px;
+    line-height: 25px;
+    width: 195px;
+    margin-top: 302px;
+    margin-left: 20px;
+  }
+  
+  
+  /* Hover Color change */
+  .sidenav a:hover {
+    color: #d4f1c9;
+  }
+  
+  /* Style page content */
+  .main {
+    position: absolute;
+    align-content: center;
+    width: 674px;
+    height: 1184px;
+    left: 500px;
+    top: 0px;
+
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #mySidenav img {
+    position: absolute;
+    width: 190px;
+    height: auto;
+    top: 43px;
+    left: 60px;
+}
+
