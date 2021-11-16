@@ -39,10 +39,12 @@
   .main {
     position: absolute;
     align-content: center;
-    width: 674px;
-    height: 1184px;
-    left: 500px;
+    width: 50%;
+    height: 100%;
+    left: 400px;
     top: 0px;
+    background-color: #3C3F50;
+    color: #fff;
 
   }
   
@@ -58,5 +60,17 @@
     height: auto;
     top: 43px;
     left: 60px;
+}
+
+.calc-content{
+    position: absolute;
+    align-content: center;
+    width: 600px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+
 }
 
