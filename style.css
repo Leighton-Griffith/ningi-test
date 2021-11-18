@@ -8,12 +8,12 @@ body{
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 350px; 
+    width: 300px; 
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: rgb(32, 32, 32);
+    background-color: #333333;
     padding-top: 20px; /* Place content 60px from the top */
 
   }
@@ -44,7 +44,7 @@ body{
     align-content: center;
     width: 50%;
     height: 100%;
-    left: 350px;
+    left: 300px;
     top: 0px;
     background-color: #3C3F50;
     color: #fff;
@@ -72,8 +72,10 @@ body{
     height: 100%;
     right: 0px;
     top: 0px;
-    background-color: rgb(32, 32, 32);
+    background-color: #333333;
     color: #fff;
+    text-align: center;
+    font-family: 'Manrope', 'sans-serif';
 
 }
 
@@ -100,7 +102,7 @@ input {
 }
 
 .button_submit{
-  background-color: #04AA6D;
+  background-color: #18D777;
   border: none;
   color: white;
   padding: 10px;
@@ -111,4 +113,33 @@ input {
   margin: 4px 2px;
   border-radius: 12px;
   width: 100px;
+}
+
+.calc-header{
+  margin-left: 20px;
+  margin-top: 50px;
+  text-align: left;
+  
+}
+
+.calculations-1{
+  margin-top: 50px;
+  font-size: 10px;
+}
+
+.figures{
+  color: #18D777;
+  margin-top: 10px;
+}
+
+.calculations-2{
+  margin-top: 50px;
+  font-size: 10px;
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#chart{
+  margin-top: 75px;
 }
